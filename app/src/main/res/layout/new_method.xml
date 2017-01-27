@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/colorPrimary"
+    >
+
+    <EditText
+        android:id="@+id/et_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_new_component"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="المكونات "
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_new_component"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:id="@+id/tv_new_method"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="طريقه التحضير"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/et_new_method"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <Button
+
+        android:id="@+id/bt_add_new_method"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:text="اضافه وصفه "
+
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/iv_main_picture"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/aaa" />
+
+    <TextView
+        android:id="@+id/tv_component"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="المكونات "
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/et_component"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:id="@+id/tv_method"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="طريقه التحضير"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/et_method"
+        android:layout_width="match_parent"
+        android:layout_height="100dp" />
+
+    <ImageButton
+
+        android:id="@+id/imb_favourite_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:src="@drawable/heart"
+
+        />
+
+
+</LinearLayout>
